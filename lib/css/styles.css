@@ -4,10 +4,10 @@ main {
     flex-direction: column;
 }
 body {
-    background-color: rgb(0, 195, 255);
-
+    background-color: rgb(197, 199, 199);
+    width: 200mm;
 }
-.task1 {
+.backgroudTask {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -40,4 +40,30 @@ h2 {
     0% {transform: rotate(0deg)}
     50% {transform: rotate(-45deg)}
     100% {transform: rotate(-90deg);}
+}
+
+.purple-field {
+    margin: 1%;
+    width: 100%;
+    height: 200px;
+    background-color: #9ca3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    width: 50%;
+    height: 32%;
+    background-color: #908aec;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigWhiteLetter {
+    font-size: 20px;
+    font-stretch: expanded;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    letter-spacing:4pt;
 }
