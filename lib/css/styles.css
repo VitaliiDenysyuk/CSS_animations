@@ -71,4 +71,5 @@ h2 {
     box-shadow: 0px 15px 5px -7px #8479ca;
     transform: translateY(5px);
     transition: 500ms;
+    cursor: pointer;
 }
