@@ -1,11 +1,43 @@
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 body {
+    background-color: rgb(0, 195, 255);
+
+}
+.task1 {
     background-color: black;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
-main {
+.white-field {
     margin: 5%;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 50%;
+    height: 50%;
+    background-color:#8aa4ff ;
+    animation-name: rotating;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+h2 {
+    font-size: 40px;
+}
+@keyframes rotating {
+    0% {transform: rotate(0deg)}
+    50% {transform: rotate(-45deg)}
+    100% {transform: rotate(-90deg);}
 }
