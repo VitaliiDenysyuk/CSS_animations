@@ -60,6 +60,7 @@ h2 {
 .button {
     width: 50%;
     height: 32%;
+    border-width: 0em;
     background-color: #908aec;
     border-radius: 5px;
     display: flex;
@@ -70,6 +71,7 @@ h2 {
     width: 25%;
     height: 50px;
     background-color:black;
+    border-width: 0em;
     border-radius: 25px;
     display: flex;
     justify-content: center;
