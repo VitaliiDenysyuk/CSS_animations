@@ -169,7 +169,7 @@ h2 {
     animation-iteration-count: infinite;
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 2%;
+    
 }
 .noTransparentPartArrow {
     width: 50%;
