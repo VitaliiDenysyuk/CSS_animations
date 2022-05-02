@@ -221,7 +221,7 @@ h2 {
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #6c6c5500;
-    transition: 4s;
+    transition: 2s;
     transition-delay: 1s;
  }
  .link {
@@ -229,6 +229,8 @@ h2 {
  }
 .transparentButton:hover ~ .policy {
     color: #6c6c55ff;
+   
+
 }
 
 .transparentButton:hover ~ p>a {
