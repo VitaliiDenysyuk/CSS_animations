@@ -209,6 +209,7 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #6c6c5500;
     transition: 4s;
+    transition-delay: 1s;
  }
  .link {
      color: #0000ff00;
@@ -221,6 +222,27 @@ h2 {
     color: #0000ffff;
 }
 
+.rectangle {
+    width: 8%;
+    height: 15%;
+    background-color: #7c107b;
+    transition: 1s;
+    cursor: pointer;
+}
+.rectangle:hover {
+    height: 100%;
+    transition: 400ms;
+}
+.active_field {
+    width: 54%;
+    flex-basis: 65%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    /* background-color: #29f498; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 
 @keyframes rotating {
     0% {transform: rotate(0deg)}
