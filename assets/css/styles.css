@@ -177,17 +177,18 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;  
+    flex-direction: column;
+    width: 100%;
+    background-size: 50%;  
     height: 20rem;
     
 }
 .transparentButton {
     font-size: 20px;
     font-stretch: expanded;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-weight:600;
     color:white;
-    height: 20%;
+    width: 20%;
     flex-basis: 20%;
     background-color:#7c107bcc ; 
     border-width: 2px;
@@ -197,12 +198,29 @@ h2 {
     text-transform:uppercase;
     cursor: pointer;
     transition: 1s;
+    margin-bottom: 2rem;
 }
 .transparentButton:hover {
     background-color: #fcfcf5aa;
     color: #7c107b;
-   
 }
+.policy {
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6c6c5500;
+    transition: 4s;
+ }
+ .link {
+     color: #0000ff00;
+ }
+.transparentButton:hover ~ .policy {
+    color: #6c6c55ff;
+}
+
+.transparentButton:hover ~ p>a {
+    color: #0000ffff;
+}
+
 
 @keyframes rotating {
     0% {transform: rotate(0deg)}
