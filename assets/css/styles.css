@@ -63,6 +63,7 @@ h2 {
     border-width: 0em;
     background-color: #908aec;
     border-radius: 5px;
+    transition: 500ms;    
 }
 .uglybutton {
     width: 25%;
@@ -92,7 +93,6 @@ h2 {
 .button:hover {
     box-shadow: 0px 15px 5px -7px #8479ca;
     transform: translateY(5px);
-    transition: 500ms;
     cursor: pointer;
 }
 .uglybutton:hover {
